@@ -1,0 +1,15 @@
+Is the following function a proper distance function?
+
+d(x,y) = summation ( (xi - yi)^3 )
+
+No, because a distance metric is a real-valued function d used to measure the similarity between coordinates x,y, and z with properties
+
+1. d(x,y) >= 0, and d(x,z) = 0 iff x=y
+2. d(x,y) = d(y,x)
+3. d(x,z) <= d(x,y) + d(y,z)
+
+With the provided function, the coordinates (0,1,0) and (0,0,0) compute to:
+
+d(x,y) = (0-0)^3 + (0-1)^3 + (0-0)^3 = -1
+
+This breaks rule 1, that distance can not be negative

@@ -1,0 +1,32 @@
+P(England) = 0.5
+P(Italy) = 0.2
+P(Spain) = 0.3
+
+P(Covid | England) = 0.0012
+P(Covid | Italy) = 0.0015
+P(Covid | Spain) = 0.0016
+
+P(Covid AND England) = P(Covid | England) * P(England) = 0.0012 * 0.5 = 0.0006
+P(Covid AND Italy) = P(Covid | Italy) * P(Italy) = 0.0015 * 0.2 = 0.00075
+P(Covid AND Spain) = P(Covid | Spain) * P(Spain) = 0.0016 * 0.3 = 0.00048
+
+P(Covid) = 0.00183
+----------------------------------------------------------------------------
+QUESTION 1
+
+P(employee will contract COVID while traveling) 
+= P(Covid AND England) or P(Covid AND Italy) or P(Covid AND Spain)
+= 0.0006 + 0.00075 + 0.00048 = 0.00183
+
+ANSWER: 0.183% of employee getting COVID while traveling
+
+----------------------------------------------------------------------------
+QUESTION 2
+
+Assume that the employee has traveled to Europe and contracted COVID, what is
+the probability that he/she traveled to England?
+
+P(England | Covid) = P(England AND Covid) / P(Covid)
+
+= 0.0006 / 0.00183 = 0.328
+

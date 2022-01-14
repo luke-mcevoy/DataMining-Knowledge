@@ -1,0 +1,12 @@
+﻿ID,Occupation,Gender,Age,Salary
+1,Serivice,F,Above 40,L3
+2,Serivice,M,0 - 30,L1
+3,Serivice,M,31 - 40,L2
+4,Management,M,0 - 30,L3
+5,Management,F,31 - 40,L4
+6,Management,M,0 - 30,L3
+7,Management,F,Above 40,L4
+8,Sales,F,31 - 40,L3
+9,Sales,M,0 - 30,L2
+10,Staff,F,Above 40,L2
+11,Staff,M,0 - 30,L1
