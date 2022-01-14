@@ -1,0 +1,101 @@
+
+Homework 1
+Luke McEvoy
+9/10/2021
+CS 513
+
+HW 1.1
+
+	Jerry and Susan have a joint bank account
+
+	Jerry goes to the bank 20% of the days
+
+	Susan goes there 30% if the days
+
+	Together they are at the bank 8% of the days
+
+		* Conditional Probability FORMULA * P(A|B) = P(A n B) / P(B)
+ 
+		a. 	Susan was at the bank last Monday. What's the prob that Jerry was there too
+		
+			P(Jerry | Susan) = P(Jerry and Susan) / P(Susan) = 0.08 / 0.3 = 0.26
+
+		b. 	Last Friday, Susan wasn't at the bank. What's the prob that Jerry was there
+		
+			 P(Jerry | !Susan) = P(Jerry and !Susan) / P(!Susan) = (0.2 - 0.08) / 0.70 = 0.17
+							
+
+		c.	Last Wednesday at least one of them was at the bank. What is the prob that both of them were there?
+
+			P(Jerry) + P(Susan) - P(Jerry and Susan) = 0.3 + 0.2 - 0.08 = 0.42
+
+HW 1.2
+
+	Harold and Sharon are studying for a test
+
+	Harold's chance of getting a "B" are 0.8
+
+	Sharon's chances of getting a "B" are 0.9
+
+	The prob of at least one of them getting a "B" is 0.91
+
+	* If A and B are independent * P(A|B) = P(A) or (P and B) = P(A)P(B)
+
+	* Harold and Sharon's grades are independent *
+
+	P(Harold) = 0.8, P(!Harold) = 0.2
+	P(Sharon) = 0.9, P(!Sharon) = 0.1
+
+	P(Harold | !Sharon) = 0.91
+	P(Sharon | !Harold) = 0.91
+
+		a. What is the prob that only Harold gets a "B"
+
+			P(Harold and !Sharon) =	 P(Harold) * P(!Sharon) = 0.8 * 0.1 = 0.08
+
+		b. What is the prob that only Sharon gets a "B"
+		
+			P(!Harold and Sharon) =	 P(!Harold) * P(Sharon) = 0.2 * 0.9 = 0.18
+
+		c. What is the prob that both won't get a "B"
+			
+			P(!Harold and !Sharon) 	= P(!Harold) * P(!Sharon) = 0.2 * 0.1 = 0.02
+
+HW 1.3
+
+	Jerry and Susan have a joint bank account
+
+	P(Jerry) = 0.2
+
+	P(Susan) = 0.3
+
+	P(Jerry and Susan) = 0.08
+
+	Are the event "Jerry is at the bank" and "Susan is at the bank" independent? YES
+
+	* Independent Variable => When the occurrence of one event will NOT control the happening of the other event in an experiment then it is termed as an independent event *
+
+HW 1.4
+
+	You roll 2 dice
+
+	a.	Are the events "the sum is 6" and "the second die shows 5" independent? NO
+		P("The sum is 6") = 5/36
+		P("the second die shows 5") = 6/36 = 1/6
+		P("the sum is 6" AND "the second die shows 5") = 1/6 * 1/6 = 1/36 != P("The sum is 6")*P("the second die shows 5") = (5/36 * 1/6)
+
+	b. 	Are the events "the sum is 7" and "the first die shows 5" independent? NO
+		P("the sum is 7") = 6/36 = 1/6
+		P("the first die shows 5") = 1/6
+		P("the sum is 7" AND "the first die shows 5") = 1/6 * 1/6 = 1/36 = P("the sum is 7")*P("the first die shows 5") = 1/6 * 1/6 = 1/36
+
+HW 1.5
+
+	An oil company is considering drilling
+
+
+
+	
+	
+
+
